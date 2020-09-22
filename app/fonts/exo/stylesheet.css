@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Exo 2.0';
+    src: url('Exo20-Thin.eot');
+    src: url('Exo20-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Exo20-Thin.woff2') format('woff2'),
+        url('Exo20-Thin.woff') format('woff'),
+        url('Exo20-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
