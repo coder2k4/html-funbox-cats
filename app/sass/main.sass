@@ -107,11 +107,11 @@ section.cats
           padding-bottom: 15px
           color: #666666
         h3
-          padding: 0 0 4px 0
+          padding: 0
           margin: 0 0 0 -3px
           font-size: 48px
           font-weight: 700
-          line-height: 1.2
+          line-height: 1.1
         p
           margin: 0
           padding: 0 0 15px 0
@@ -140,6 +140,7 @@ section.cats
           align-items: center
           flex-direction: column
           color: #ffffff
+          text-align: center
           .weight
             width: 56px
             height: 53px
@@ -182,12 +183,15 @@ section.cats
           background-color: #d91667
         ~ .product__cart-agitation a
           color: #d91667
-      .product__cart-wrap:hover
+    &__cart.selected
+      .product__cart-wrap
         background-color: #e62e7a
         .product__cart-body-circle
           background-color: #e62e7a
-        ~ .product__cart-agitation a
-          color: #e62e7a
+        ~ .product__cart-agitation
+          text-shadow: 0 1px 0 #000000
+          a
+            color: #e62e7a
 
     &__cart.disable
       .product__cart-wrap
